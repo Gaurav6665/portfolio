@@ -58,6 +58,27 @@ resume_print_social_links:      true
 # Design settings
 resume_theme:                   default
 
-# Note: when editing locally, remember to restart
-# your Jekyll server when you edit this file. Changes
-# to _config.yml are only recognized when the server starts
+resume_header_intro: "<p>I am a B. Tech graduate in Information Technology with a stellar academic record, strong technical skills, and a proven track record of software development and automation. I am passionate about contributing to innovative projects and advancing my career as a Software Engineer.</p>"
+
+# Decide which sections to use
+resume_section_experience: true
+resume_section_education: true
+resume_section_projects: true
+resume_section_skills: true
+resume_section_recognition: true
+resume_section_links: true
+resume_section_associations: true
+resume_section_interests: true
+
+# Resume Contact
+resume_name: "Gaurav Tiwari"
+resume_title: "Software Development Engineer"
+resume_contact_email: "tiwari6665@gmail.com"
+resume_contact_telephone: "+91 9321146661"
+resume_contact_address: None
+
+# Links
+resume_social_links:
+  resume_github_url: "https://github.com/GauravT"
+  resume_twitter_url: "https://twitter.com/gaurav_tiwari"
+  resume_linkedin_url: "https://www.linkedin.com/in/gauravtiwari19/"
