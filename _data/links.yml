@@ -1,7 +1,8 @@
-# links
-- url: "https://github.com/GauravT"
-  description: GitHub: GauravT
-- url: "https://www.linkedin.com/in/gauravtiwari19/"
-  description: LinkedIn: Gaurav Tiwari
-- url: "https://twitter.com/gaurav_tiwari"
-  description: Twitter: @gaurav_tiwari
+---
+links:
+  - url: https://github.com/GauravT
+    description: "GitHub: GauravT"
+  - url: https://www.linkedin.com/in/gauravtiwari19/
+    description: "LinkedIn: Gaurav Tiwari"
+  - url: https://twitter.com/gaurav_tiwari
+    description: "Twitter: @gaurav_tiwari"
