@@ -1,17 +1,16 @@
-# Recognitions
-- award: Highest CGPA in Information Technology
+---
+- award: Highest CGPA (10/10) in Information Technology
   organization: University of Mumbai
   year: 2023
   summary: Achieved the highest CGPA of 10 in the Information Technology program.
-
 - award: Debate Winner
   organization: VPPCOE-VA College
   year: 2022
-  summary: Won multiple accolades in intercollegiate debate competitions, showcasing communication and analytical skills.
-
-  - award: Hackathon Winner
+  summary: Won multiple accolades in intercollegiate debate competitions,
+    showcasing communication and analytical skills.
+- award: Hackathon Winner
   organization: VPPCOE-VA College
   year: 2022
-  summary: Made significant contributions to a hackathon project(Solanum tuberosum
- plant disease detection using Deep learning) and lead the team to victory.
- 
+  summary: Made significant contributions to a hackathon project (Solanum
+    tuberosum plant disease detection using Deep Learning) and led the team to
+    victory.
