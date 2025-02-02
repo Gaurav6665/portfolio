@@ -1,36 +1,24 @@
 # Projects
 # Autopause Campaign System
-- project: Autopause Campaign System
+- project: Autopause Campaign System (Media.net Pvt Ltd)
   role: Developer
   duration: 2023 — Present
   description: Managed campaign lifecycles dynamically, leveraging Python, PostgreSQL, and multithreading to enhance large-scale ad budget adjustments.
 
 # Article Metadata Automation
-- project: Article Metadata Automation
+- project: Article Metadata Automation (Media.net Pvt Ltd)
   role: Lead Developer
   duration: 2023
   description: Built a robust article extraction system using FastAPI and Pandas, automating metadata analysis for 1,000+ articles with improved efficiency.
 
-# Dashboard Validation Automation
-- project: Dashboard Validation Automation
-  role: Developer
-  duration: 2023
-  description: Automated data validation for 100+ business-critical dashboards, reducing regression time by 50% using Selenium and TypeScript.
-
 # VIDEO CHAT APPLICATION (College Project)
-- project: VIDEO CHAT APPLICATION
+- project: VIDEO CHAT APPLICATION (College Project)
   role: Developer
   duration: June 2023
   description: Designed and deployed a full-stack video chat platform using HTML, ReactJS, WebRTC, and Socket.io for seamless real-time communication.
 
-# COVID-19 DETECTION FROM X-RAYS (College Project)
-- project: COVID-19 DETECTION FROM X-RAYS
-  role: Developer
-  duration: December 2022
-  description: Developed a convolutional neural network (CNN) model achieving 92% accuracy on X-ray datasets for COVID-19 diagnosis; automated image preprocessing pipelines for efficient workflows.
-
 # POTATO DISEASE DETECTION (College Project)
-- project: POTATO DISEASE DETECTION
+- project: POTATO DISEASE DETECTION (Final-Year College Project)
   role: Developer
   duration: June 2022
   description: Created a deep learning-based mobile-integrated solution using Android Studio, Python, and TensorFlow to identify and classify potato diseases effectively.

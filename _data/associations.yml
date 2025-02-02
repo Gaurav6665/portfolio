@@ -1,14 +1,14 @@
 # Associations
 # comment out the urls if you do not wish to display them
 
-- organization: University of Mumbai Engineering Club
-  role: Member
+- organization: Information Technology Students Association Club
+  role: General Secratary 
   year: 2019 — 2023
   url: None
   summary: Contributed to technical and collaborative projects, focusing on software development and automation.
 
-- organization: Debate Club
+- organization: Hackathon Club
   role: Participant
   year: 2021 — 2023
   url: None
-  summary: Participated and secured victories in various intercollegiate debate competitions, including Wilson College VPPCOE-VA events.
+  summary: Participated and secured victories in various intercollegiate Hackathon competitions, including VPPCOE-VA events.

@@ -1,6 +1,6 @@
 # Site settings
-title: "Jekyll Resume Template"
-description: "A resume template for Jekyll and GitHub Pages sites."
+title: "Gaurav Tiwari Resume"
+description: "Gaurav Tiwari's resume"
 
 # Build settings
 markdown: kramdown
@@ -10,20 +10,20 @@ sass:
 
 # Resume settings
 resume_avatar:                  "true"
-resume_name:                    "Lisa M. Simpson"
-resume_title:                   "VP of Global Communications"
+resume_name:                    "Gaurav Tiwari"
+resume_title:                   "Software Development Engineer"
 
 # used for the contact button in _layouts/resume.html
-resume_contact_email:           "lisasimpson@youremailaddress.com"
+resume_contact_email:           "tiwari6665@gmail.com"
 
 # the next two items are used for schema itemprops in _layouts/resume.html
-resume_contact_telephone:       "555-7334"
-resume_contact_address:         "742 Evergreen Terrace, Springfield"
+resume_contact_telephone:       "9321146661"
+resume_contact_address:         "Mumbai, India"
 
-resume_header_contact_info:     "742 Evergreen Terrace, Springfield • 555-7334 • lisasimpson@youremailaddress.com"
-display_header_contact_info:    "false"
+resume_header_contact_info:     "• Mumbai, India    • +91 9321146661    • tiwari6665@gmail.com"
+display_header_contact_info:    "true"
 
-resume_header_intro: "<p>This is the executive summary. You should write a few brief, concise, and meaningful sentences about yourself from a professional context, and your immediate career goals. Make the length appropriate for your needs, but keep it brief and concise</p>"
+#resume_header_intro: "<p>This is the executive summary. You should write a few brief, concise, and meaningful sentences about yourself from a professional context, and your immediate career goals. Make the length appropriate for your needs, but keep it brief and concise</p>"
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
@@ -40,25 +40,31 @@ resume_section_skills:          true
 resume_section_recognition:     true
 resume_section_links:           true
 resume_section_associations:    true
-# resume_section_interests:       true
+#resume_section_interests:       true 
 
 # Resume social links
 # uncomment the options you wish to display, and add your own URL
 resume_social_links:
-  resume_github_url:            "https://github.com/jglovier/resume-template"
-  resume_twitter_url:           "http://twitter.com/jglovier"
-  resume_dribbble_url:          "https://dribbble.com/jag"
-  # resume_facebook_url:          "insert Facebook URL here"
-  resume_linkedin_url:          "https://www.linkedin.com/in/joelglovier"
-  # resume_instagram_url:         "insert your Instagram URL here"
-  resume_website_url:           "http://joelglovier.com"
-  resume_medium_url:            "https://medium.com/@jglovier"
+  # resume_github_url:            "https://github.com/jglovier/resume-template"
+  # resume_twitter_url:           "http://twitter.com/jglovier"
+  # resume_dribbble_url:          "https://dribbble.com/jag"
+  # # resume_facebook_url:          "insert Facebook URL here"
+  # resume_linkedin_url:          "https://www.linkedin.com/in/joelglovier"
+  # # resume_instagram_url:         "insert your Instagram URL here"
+  # resume_website_url:           "http://joelglovier.com"
+  # resume_medium_url:            "https://medium.com/@jglovier"
 resume_print_social_links:      true
 
 # Design settings
 resume_theme:                   default
 
-resume_header_intro: "<p>I am a B. Tech graduate in Information Technology with a stellar academic record, strong technical skills, and a proven track record of software development and automation. I am passionate about contributing to innovative projects and advancing my career as a Software Engineer.</p>"
+resume_header_intro: "<p>Seasoned Software Engineer with a strong foundation in Python, Java, and web technologies. Experienced in backend development at Multi Commodity Exchange Ltd and front-end development at CodeWind Ltd. Currently solving complex problems at MEDIA.NET, delivering impactful solutions.</p>
+
+<p>Graduated with distinction from Mumbai University, securing a 9.40 CGPA and achieving a perfect 10 CGPA in Sem 8—demonstrating my commitment to excellence. Passionate about innovation, collaboration, and pushing technological boundaries.</p>
+
+<p>Key Skills: Python, Java, Web Development, Backend, Data Analysis, SQL.</p>
+
+<p>Let's connect to explore opportunities and build cutting-edge solutions together!</p>"
 
 # Decide which sections to use
 resume_section_experience: true
@@ -75,10 +81,10 @@ resume_name: "Gaurav Tiwari"
 resume_title: "Software Development Engineer"
 resume_contact_email: "tiwari6665@gmail.com"
 resume_contact_telephone: "+91 9321146661"
-resume_contact_address: None
+resume_contact_address: Mumbai, India
 
 # Links
 resume_social_links:
-  resume_github_url: "https://github.com/GauravT"
-  resume_twitter_url: "https://twitter.com/gaurav_tiwari"
+  resume_github_url: "https://github.com/Gaurav6665"
+  resume_twitter_url: "https://x.com/gaurav6665"
   resume_linkedin_url: "https://www.linkedin.com/in/gauravtiwari19/"

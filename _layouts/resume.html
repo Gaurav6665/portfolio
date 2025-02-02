@@ -52,7 +52,6 @@
         {% endfor %}
       </section>
       {% endif %}
-
       {% if site.resume_section_education %}
       <!-- Education Section -->
       <section class="content-section">
@@ -73,7 +72,6 @@
         {% endfor %}
       </section>
       {% endif %}
-
       {% if site.resume_section_projects %}
       <!-- Projects Section -->
       <section class="content-section">
@@ -89,7 +87,6 @@
         {% endfor %}
       </section>
       {% endif %}
-
       {% if site.resume_section_skills %}
       <!-- Skills Section -->
       <section class="content-section">
@@ -104,7 +101,6 @@
         {% endfor %}
       </section>
       {% endif %}
-
       {% if site.resume_section_recognition %}
       <!-- Recognitions Section -->
       <section class="content-section">
@@ -120,7 +116,6 @@
         {% endfor %}
       </section>
       {% endif %}
-
       {% if site.resume_section_associations %}
       <!-- Associations Section -->
       <section class="content-section">
@@ -136,7 +131,6 @@
         {% endfor %}
       </section>
       {% endif %}
-
       {% if site.resume_section_interests %}
       <!-- Interests Section -->
       <section class="content-section">
@@ -152,23 +146,6 @@
         </div>
       </section>
       {% endif %}
-
-      {% if site.resume_section_links %}
-      <!-- Links Section -->
-      <section class="content-section">
-        <header class="section-header">
-          <h2>Additional Links</h2>
-        </header>
-        <div class="resume-item">
-          <ul class="resume-item-list">
-            {% for link in site.data.links %}
-            <li><a href="{{ link.url }}" itemprop="url">{{ link.description }}</a></li>
-            {% endfor %}
-          </ul>
-        </div>
-      </section>
-      {% endif %}
-
       <footer class="page-footer">
         <p class="footer-line">Made by Gaurav Tiwari.</p>
       </footer>

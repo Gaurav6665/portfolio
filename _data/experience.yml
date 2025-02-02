@@ -3,16 +3,16 @@
 - company: Media.net Pvt Ltd
   position: Software Engineer
   duration: July 2023 — Present
-  summary: >
-    Worked on innovative projects like:
-    - Engineered an Autopause Campaign System with Python, PostgreSQL, and multithreading for efficient ad budget adjustments.
-    - Designed REST APIs in Spring Boot to automate revenue and ad conversions, improving scalability.
-    - Automated metadata analysis for 1,000+ articles using FastAPI, MySQL, and Pandas, reducing manual effort by 90%.
-    - Migrated backend systems from AWS to GCP, reducing costs by 20% while increasing security.
-    - Automated data validation for over 100 dashboards via Selenium, TypeScript, and Java.
-
+  summary: 
+    - "Engineered an Autopause Campaign System with Python, PostgreSQL, and multithreading for efficient ad budget adjustments."
+    - "Designed REST APIs in Spring Boot to automate revenue and ad conversions, improving scalability."
+    - "Automated metadata analysis for 1,000+ articles using FastAPI, MySQL, and Pandas, reducing manual effort by 90%."
+    - "Migrated backend systems from AWS to GCP, reducing costs by 20% while increasing security."
+    - "Automated data validation for over 100 dashboards via Selenium, TypeScript, and Java."
 # Software Engineer Intern
 - company: Multi Commodity Exchange Ltd
   position: Software Engineer Intern
   duration: March 2023 — June 2023
-  summary: Collaborated on projects related to data management and backend enhancements using modern frameworks and tools.
+  summary: 
+    - "Collaborated on projects related to data management and backend enhancements."
+    - "Used modern frameworks and tools to improve performance."

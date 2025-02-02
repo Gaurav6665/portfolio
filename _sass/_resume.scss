@@ -1,32 +1,38 @@
 // Resume styles
 // ---------------------------------------/
-
-// util
-
+// utilities
 .section-header {
   @include section_border;
-  margin-bottom: 1.5rem;
-
+  margin-bottom: 2rem; /* Increased margin for a cleaner layout */
+  
   h2 {
     @include sans;
     font-weight: 900;
-    font-size: 1.75rem;
-    letter-spacing: -.05rem;
+    font-size: 2rem; /* Larger and more modern heading */
+    letter-spacing: -0.03rem; /* Subtle spacing between letters */
+    color: #333;
+    text-transform: uppercase;
     margin: 0;
   }
 }
 
 // page header styles
-
-.page-header { padding: 1.5rem 0;
-
+.page-header { 
+  padding: 2rem 0; /* More vertical spacing for breathing room */
+  
   .avatar {
-    width: 95px;
+    width: 140px; /* Moderate width for better visibility */
+    height: 180px; /* Adjust height to make the photo oval */
     max-width: 100%;
-    overflow: hidden;
-    @include border-radius(100px);
-    margin: 0 auto;
-    display: block;
+    border-radius: 50% / 40%; /* Makes the image an oval */
+    overflow: hidden; /* Ensures no overflow */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); /* Subtle shadow for aesthetics */
+    margin: 20px auto; /* Centers the photo */
+    display: block; /* Ensures proper display in block layouts */
+    transition: transform 0.3s ease; /* Add hover animation */
+    &:hover {
+      transform: scale(1.1); /* Highlight effect on hover */
+    }
   }
 
   .header-name {
@@ -34,201 +40,226 @@
     font-size: 3rem;
     font-weight: 900;
     text-align: center;
-    letter-spacing: -.15rem;
-    line-height: 1;
+    letter-spacing: -0.1rem;
+    line-height: 1.2;
+    color: #444; /* Softened black for readability */
     margin: 1rem 0 0;
   }
 
   .header-contact-info {
     @include sans;
+    font-size: 1.2rem;
     text-align: center;
+    color: #666; /* Lighter text for contact details */
+    margin-top: 1rem;
   }
+
   .header-contact-info p a {
     color: inherit;
+    text-decoration: none;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.2s, color 0.2s;
+    &:hover {
+      color: #007acc; /* Highlight color */
+      border-color: #007acc; /* Underline appearance */
+    }
   }
 
   .title-bar {
     @include section_border;
     margin-top: 2rem;
-    padding: .4rem 0;
-    @include clearfix;
+    padding: 1rem 0;
+
+    /* Flex layout to ensure title and symbols are in one line */
+    display: flex;
+    justify-content: space-between; /* Space between title and icons */
+    align-items: center; /* Vertically center both elements */
 
     .header-title {
-      @include sans;
-      font-weight: 300;
+      margin: 0; /* No extra margin; aligned neatly with icons */
+      font-weight: 600;
       font-size: 1.75rem;
       line-height: 2rem;
-      letter-spacing: -.05rem;
-      text-align: center;
-      margin: 0 0 .5rem;
+      letter-spacing: -0.05rem;
+      color: #444; /* Muted color for modern styling */
+    }
 
-      @include media_larger_than_mobile {
-        float: left;
-        margin: 0;
+    .icon-links {
+      display: flex; /* Horizontally aligns the icons */
+      gap: 15px; /* Adds consistent spacing between icons */
+
+      .icon-link-item {
+        display: inline-block;
+        margin: 0 8px;
+        
+        a {
+          width: 40px;
+          height: 40px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 50%;
+          background-color: #efefef;
+          transition: background-color 0.2s, transform 0.2s;
+
+          &:hover {
+            background-color: #007acc; /* Blue highlight on hover */
+            transform: scale(1.1); /* Growth animation */
+          }
+
+          .icon {
+            height: 24px;
+          }
+        }
       }
     }
   }
 
   .executive-summary {
-    @include media_larger_than_mobile { font-size: 1.125rem; }
-  }
-}
-
-.icon-links {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  position: relative;
-  top: 4px;
-  text-align: center;
-  border-top: 2px solid #c7c7c7;
-  padding-top: .4rem;
-
-  @include media_larger_than_mobile {
-    float: right;
-    border-top: none;
-    padding-top: 0;
-  }
-
-  .icon-link-item {
-    display: inline-block;
-    margin-left: 5px;
-  }
-
-  .icon-link { display: inline-block;
-
-    &:hover .icon path {
-      fill: #333;
-      @include transition(all .2s ease);
+    @include media_larger_than_mobile { 
+      font-size: 1.125rem; 
+      color: #333;
+      text-align: justify; /* Improves layout for large sections */
     }
   }
-
-  .icon {
-    height: 28px;
-  }
 }
 
+// call-to-action button
 .contact-button {
-  @include border-radius(3px);
-  background-color: #efefef;
+  @include border-radius(5px);
+  background: linear-gradient(to right, #007acc, #005f99);
   text-decoration: none;
   text-align: center;
   display: block;
-  margin: 1.5rem auto;
-  width: 220px;
-  font-size: 1.375rem;
-  @include sans_light;
-  color: #333;
-  line-height: 55px;
-  @include transition(all .2s ease);
+  margin: 2rem auto;
+  padding: 1rem 2rem; /* Larger button for a bold call-to-action */
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease-in;
+  width: 250px;
 
   &:hover {
-    background-color: #333;
-    color: #fff;
+    background: linear-gradient(to right, #005f99, #003f66);
+    text-shadow: 0 0 0.2rem rgba(255, 255, 255, 0.2);
   }
 
-  &.not-looking { width: 400px; }
+  &.not-looking {
+    width: 300px;
+  }
 }
 
 // resume content styles
-
 .content-section {
   margin: 0 0 3rem;
 
-  .resume-item { margin-bottom: 2rem; }
+  .resume-item {
+    margin-bottom: 2rem;
+    border-left: 4px solid #007acc;
+    padding-left: 1rem; /* Visual alignment for list items */
+    
+    &:hover {
+      background-color: #f9f9f9; /* Subtle highlight on hover */
+      transition: 0.2s ease-in-out;
+    }
+  }
 
   .resume-item-title {
     @include sans_bold;
-    margin: 0 0 .75rem;
-    font-size: 1.5rem;
-    letter-spacing: -.05rem;
-    line-height: 1;
+    font-size: 1.7rem;
+    color: #222;
+    margin: 0 0 0.5rem;
+    text-transform: capitalize;
   }
 
   .resume-item-details {
-    font-size: 1.125rem;
-    margin: 0 0 .75rem;
-    line-height: 1;
-
-    &.award-title {
-      font-size: 1rem;
-    }
+    font-size: 1.2rem;
+    font-style: italic;
+    color: #555;
+    margin-bottom: 0.5rem;
   }
 
-  .resume-item-title,
-  .resume-item-details,
-  .resume-item-copy,
-  .resume-item-list {
-    a {
-      color: #333;
-      text-decoration: none;
-      border-bottom: 1px solid;
-
-      &:hover {
-        border-bottom: none;
-        color: #9c9c9c;
-      }
-    }
+  .resume-item-copy { 
+    font-size: 1rem;
+    line-height: 1.6; 
+    color: #333;
+    margin-top: 0.5rem; 
   }
 
-  .resume-item-copy { margin: .75rem 0 0; }
+  ul {
+    padding-left: 1.5rem;
+    list-style: disc;
+
+    li {
+      margin-bottom: 0.5rem;
+    }
+  }
 }
 
 // footer styles
-
 .page-footer {
-  border-top: 4px solid #c7c7c7;
-  padding-top: 1.5rem;
+  border-top: 6px solid #007acc; /* Adds brand color */
+  padding-top: 1.8rem;
   text-align: center;
-  margin-bottom: 3rem;
+  color: #666;
 
   .footer-line {
-    margin: 0;
-    font-size: .875rem;
+    font-size: 1rem;
     color: #999;
 
     > a {
       font-weight: 700;
-      color: #333;
+      color: #007acc;
     }
   }
 }
 
-.print-only { display: none !important }
+// print-specific styles
+.print-only { 
+  display: none !important; 
+}
 
 @media print {
-  .no-print { display: none !important }
-  .print-only { display: block !important }
-  body { font-size: 12px; line-height: 1rem; }
-  .page-header { padding: 1rem 0 .2rem;
+  .no-print { 
+    display: none !important; 
+  }
+
+  .print-only { 
+    display: block !important; 
+  }
+
+  body { 
+    font-size: 12px; 
+    line-height: 1rem; 
+  }
+
+  .page-header { 
+    padding: 1rem 0 .2rem;
+
     .header-name {
       @include sans_bold;
       font-size: 2rem;
       margin: 0 0 .2rem;
     }
   }
+
   .section-header {
     @include section_border_thin;
     margin-bottom: 1rem;
-    h2 { font-size: 1.2rem; line-height: 1.5rem; }
+
+    h2 { 
+      font-size: 1.5rem; 
+      line-height: 1.5rem; 
+    }
   }
+
   .content-section {
     margin: 0 0 1rem;
-    .resume-item { margin-bottom: 1rem; }
-    .resume-item-title {
-      font-size: 16px;
-      line-height: .7em;
-    }
 
-    .resume-item-details {
-      font-size: 12px;
-      margin: 0 0 .75rem;
-      line-height: .7em;
-      font-style:italic;
-
-      &.award-title {
-        font-size: 11px;
-      }
+    .resume-item { 
+      margin-bottom: 1rem; 
     }
   }
 }
